@@ -43,6 +43,9 @@ li > a:hover {
   background-color: darkblue;
   color: white;
   border-radius: 7px;
+  display: inline-block;
+  width: 5em;
+  text-align: center;
 }
 
 .sign-in > a {
