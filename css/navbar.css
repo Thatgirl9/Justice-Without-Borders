@@ -58,3 +58,9 @@ li > a:hover {
   color: darkblue;
   text-decoration: none;
 }
+
+@media screen and (max-width: 787px) {
+  .nav-div {
+    margin-left: 20px;
+  }
+}
