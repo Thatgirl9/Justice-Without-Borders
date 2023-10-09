@@ -38,8 +38,8 @@ form.addEventListener('submit', function (e) {
     alert('Please fill in all the required fields and agree to the terms and conditions.');
     // return;
   } else {
-    alert(`Registration succesful ${firstname}! Redirecting to login....`)
-    window.location.href = 'login.html';
+    alert(`Registration successful ${firstname}! Redirecting to login....`)
+    window.location.href = './login.html';
   }
 });
 
@@ -64,7 +64,8 @@ loginForm.addEventListener('submit', function (e) {
 
   // Check if the inputs match the user data (demo purposes)
   if (username === userData.username && password === userData.password) {
-    alert('Login successful!'); // You can replace this with a redirection to another page
+    alert('Login successful!');
+    window.location.href = "./services.html";
   } else {
     alert('Invalid username or password. Please try again.');
   }
