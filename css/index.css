@@ -119,3 +119,25 @@ body {
   margin-right: 200px;
   margin-top: -100px;
 }
+
+@media screen and (max-width: 787px) {
+  .hero-div {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    flex-direction: column-reverse;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .peace-display-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
