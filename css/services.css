@@ -1,0 +1,126 @@
+body {
+  background-color: #dbd8d8;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-header {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    position: relative;
+    bottom: 20px;
+    margin-left: -15px;
+}
+
+#dove-icon {
+    height: 5em;
+    width: 5em;
+}
+
+li>a {
+    text-decoration: none;
+    color: #1f1f7a;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+li>a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: darkblue;
+    color: white;
+    border-radius: 7px;
+}
+
+.sign-in>a {
+    color: white;
+}
+
+.sign-in>a:hover {
+    border: 2px solid darkblue;
+    border-radius: 7px;
+    background-color: white;
+    color: darkblue;
+    text-decoration: none;
+}
+.maincontainer {
+  max-width: 800px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  margin: auto;
+}
+
+.firstcontainer {
+  margin-bottom: 50px;
+}
+
+.secondcontainer {
+  margin-bottom: 50px;
+}
+
+.thirdcontainer {
+  margin-bottom: 50px;
+}
+
+.line {
+  font-weight: 800;
+
+  color: #1f1f7a;
+}
+
+aside {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 350px;
+
+  margin: 10px;
+
+  padding: 10px;
+}
+
+h1 {
+  color: #1f1f7a;
+
+  text-align: center;
+
+  margin: 0;
+}
+
+h3 {
+  color:#1f1f7a;
+
+  text-align: center;
+
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
