@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Registration For Professionals Providing Help</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/2bbac3a66c.js" crossorigin="anonymous"></script>
+
+  <link href="css/professionalSignUp.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section class="h-100 bg-dark">
+
+    <div class="container py-5 h-100">
+
+      <div class="row d-flex justify-content-center align-items-center h-100">
+
+        <div class="col">
+
+          <div class="card card-registration my-4">
+
+            <div class="row g-0">
+
+              <div class="col-xl-6 d-none d-xl-block">
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                  alt="Sample photo" class="img-fluid img-sty" />
+
+              </div>
+
+              <div class="col-xl-6">
+
+                <div class="card-body p-md-5 text-black">
+
+                  <h3 class="mb-5 text-uppercase">Registration For Professionals Providing Help</h3>
+
+                  <form name="regForm" id="regForm" method="get" action="result.html">
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="fname">First name<span class="req-color">*</span></label>
+
+                          <input type="text" id="fname" name="fname" class="form-control form-control-lg" required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="lname">Last name<span class="req-color">*</span></label>
+
+                          <input type="text" id="lname" name="lname" class="form-control form-control-lg" required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="emailAdd">Email<span class="req-color">*</span></label>
+
+                          <input type="email" id="emailAdd" name="emailAdd" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="phoneNum">Phone Number<span class="req-color">*</span></label>
+
+                          <input type="phone" id="phoneNum" name="phoneNum" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline mb-4">
+
+                          <label class="form-label" for="address">Address<span class="req-color">*</span></label>
+
+                          <input type="text" id="address" name="address" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+
+
+                        <label class="form-label" for="address">Gender:<span class="req-color">*</span></label><br />
+
+                        <div class="form-check form-check-inline mb-0 me-4">
+
+                          <input class="form-check-input" type="radio" name="gender" id="femaleGender"
+                            value="option1" />
+
+                          <label class="form-check-label" for="femaleGender">Female</label>
+
+                        </div>
+
+
+
+                        <div class="form-check form-check-inline mb-0 me-4">
+
+                          <input class="form-check-input" type="radio" name="gender" id="maleGender" value="option2" />
+
+                          <label class="form-check-label" for="maleGender">Male</label>
+
+                        </div>
+
+
+
+                        <div class="form-check form-check-inline mb-0">
+
+                          <input class="form-check-input" type="radio" name="gender" id="otherGender" value="option3" />
+
+                          <label class="form-check-label" for="otherGender">Other</label>
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="row">
+
+
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="country">Country<span class="req-color">*</span></label>
+
+                          <input type="text" id="country" name="country" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="city">City<span class="req-color">*</span></label>
+
+                          <input type="text" id="city" name="city" class="form-control form-control-lg" required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="degree">Highest Degree<span class="req-color">*</span></label>
+
+                          <input type="text" id="degree" name="degree" class="form-control form-control-lg" required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="yrsofexprience">Years of experience<span
+                              class="req-color">*</span></label>
+
+                          <input type="text" id="yrsofexprience" name="yrsofexprience"
+                            class="form-control form-control-lg" required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <select class="select area-special" name="areaofspecial" id="areaofspecial"
+                            title="Area of Specialisation">
+
+                            <option value=" ">Area of Specialisation</option>
+
+                            <option value="option1">Option 1</option>
+
+                            <option value="option2">Option 2</option>
+
+                            <option value="option3">Option 3</option>
+
+                          </select>
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4 upload-div">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="myFile">Please Upload Your Crediencials<span
+                              class="req-color">*</span></label>
+
+                          <input type="file" id="myFile" name="filename" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="username">Username<span class="req-color">*</span></label>
+
+                          <input type="text" id="username" name="userName" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+
+                          <label class="form-label" for="password">Password<span class="req-color">*</span></label>
+
+                          <input type="password" id="password" name="passwordInput" class="form-control form-control-lg"
+                            required />
+
+                          <i class="fas fa-check-circle"></i>
+
+                          <i class="fas fa-exclamation-circle"></i>
+
+                          <p>Error Message</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+
+                    <div class="form-outline mb-4">
+
+                      <label class="form-label" for="confirm-password">Confirm Password<span
+                          class="req-color">*</span></label>
+
+                      <input type="password" id="confirm-password" name="confirmpassword"
+                        class="form-control form-control-lg" required />
+
+                      <i class="fas fa-check-circle"></i>
+
+                      <i class="fas fa-exclamation-circle"></i>
+
+                      <p>Error Message</p>
+
+                    </div>
+
+
+
+                    <div class="d-flex justify-content-end pt-3">
+
+                      <button type="submit" id="submit" value="submit" class="btn btn-warning btn-lg ms-2">Submit
+                        form</button>
+
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                      <a href="./userSignUp.html">>>>Sign Up as a client</a>
+                    </div>
+
+                  </form>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="professionalSignUp.js"></script>
+
+
+
+</body>
+
+</html>

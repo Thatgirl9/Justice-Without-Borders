@@ -1,170 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <title>Document</title>
-    <style>
-      img {
-        vertical-align: middle;
-        width: 50%;
-      }
 
-      /* Slideshow container */
-      .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <title>Document</title>
+  <style>
+    img {
+      vertical-align: middle;
+      width: 50%;
+    }
 
-      [data-component="slideshow"] .slide {
-        display: none;
-        text-align: center;
-      }
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
 
-      [data-component="slideshow"] .slide.active {
-        display: block;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-div">
-      <div
-        class="container-fluid d-flex gap-5 justify-content-center align-content-center"
-      >
-        <div class="icon-header">
-          <img
-            src="images/dove-with-olive.jpg"
-            alt="dove-with-branch"
-            id="dove-icon"
-          />
-          <h1><a class="navbar-brand text-dark nav-logo" href="index.html">JWB</a></h1>
-        </div>
+    [data-component="slideshow"] .slide {
+      display: none;
+      text-align: center;
+    }
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    [data-component="slideshow"] .slide.active {
+      display: block;
+    }
+  </style>
+</head>
 
-        <div class="collapse navbar-collapse nav-div" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="about.html"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Our services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ticketing</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link active text-primary" href="Testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Articles</a>
-            </li>
-            <li class="nav-item sign-in">
-              <a class="nav-link" href="#">Sign In</a>
-            </li>
-          </ul>
-        </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-div">
+    <div class="container-fluid d-flex gap-5 justify-content-center align-content-center">
+      <div class="icon-header">
+        <img src="assests/landingpage-assets/dove-with-olive.jpg" alt="dove-with-branch" id="dove-icon" />
+        <h1><a class="navbar-brand text-dark nav-logo" href="index.html">JWB</a></h1>
       </div>
-    </nav>
-    <div class="slideshow-container">
-      <div id="slideshow-example" data-component="slideshow">
-        <div role="list">
-          <div class="slide">
-            <img alt="" src="websitePhotos/Algeria's.png" />
-          </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/angola's with comment.jpg" />
-          </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/botswana.png" />
-          </div>
+      <div class="collapse navbar-collapse nav-div" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Our services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ticketing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="Testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item sign-in">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="slideshow-container">
+    <div id="slideshow-example" data-component="slideshow">
+      <div role="list">
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/Algeria's.png" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/drc's.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/angola's with comment.jpg" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/egypt's.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/botswana.png" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/ethiopia.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/drc's.png" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/gabon.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/egypt's.png" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/ghana's.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/ethiopia's.png" />
+        </div>
 
-          <div class="slide">
-            <img alt="" src="websitePhotos/kenya's.png" />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/gabon.png" />
+        </div>
 
-          <div class="slide">
-            <img
-              alt=""
-              src="/WTB-Software-Engineering/websitePhotos/madagascar.png"
-            />
-          </div>
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/ghana's.png" />
+        </div>
+
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/kenya's.png" />
+        </div>
+
+        <div class="slide">
+          <img alt="" src="assests/testiomonial-assets/madagascar.png" />
         </div>
       </div>
     </div>
+  </div>
 
-    <script>
-      var slideshows = document.querySelectorAll(
-        '[data-component="slideshow"]'
+  <script>
+    var slideshows = document.querySelectorAll(
+      '[data-component="slideshow"]'
+    );
+    slideshows.forEach(initSlideShow);
+
+    function initSlideShow(slideshow) {
+      var slides = document.querySelectorAll(
+        `#${slideshow.id} [role="list"] .slide`
       );
-      slideshows.forEach(initSlideShow);
 
-      function initSlideShow(slideshow) {
-        var slides = document.querySelectorAll(
-          `#${slideshow.id} [role="list"] .slide`
-        );
+      var index = 0,
+        time = 5000;
+      slides[index].classList.add("active");
 
-        var index = 0,
-          time = 5000;
+      setInterval(() => {
+        slides[index].classList.remove("active");
+
+        index++;
+        if (index === slides.length) index = 0;
+
         slides[index].classList.add("active");
+      }, time);
+    }
+  </script>
+</body>
 
-        setInterval(() => {
-          slides[index].classList.remove("active");
-
-          index++;
-          if (index === slides.length) index = 0;
-
-          slides[index].classList.add("active");
-        }, time);
-      }
-    </script>
-  </body>
 </html>

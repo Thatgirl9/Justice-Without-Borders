@@ -1,0 +1,119 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+
+  line-height: 2.15;
+
+  padding-left: 0.75em;
+
+  padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.mb-4 {
+  margin-bottom: 0.1rem !important;
+}
+
+.form-label {
+  margin-bottom: 0 !important;
+}
+
+.req-color {
+  color: red;
+}
+
+.cancelbtn {
+  width: auto;
+
+  padding: 10px 18px;
+
+  background-color: #f44336;
+}
+
+.area-special {
+  height: 50px;
+
+  width: 100%;
+
+  padding-left: 10px;
+}
+
+.error input {
+  border: 3px red solid;
+}
+
+.success input {
+  border: 3px green solid;
+}
+
+.form-outline i {
+  position: absolute;
+
+  right: 10px;
+
+  top: 25px;
+
+  visibility: hidden;
+}
+
+.img-sty {
+  border-top-left-radius: 0.25rem;
+
+  border-bottom-left-radius: 0.25rem;
+}
+
+span.psw {
+  float: right;
+
+  padding-top: 16px;
+}
+
+.success i.fa-check-circle {
+  visibility: visible;
+
+  color: green;
+}
+
+.error i.fa-exclamation-circle {
+  visibility: visible;
+
+  color: red;
+}
+
+.form-outline p {
+  font-size: 15px;
+
+  color: red;
+
+  visibility: hidden;
+}
+
+.error p {
+  visibility: visible;
+}
+
+.upload-div {
+  margin-top: -15px;
+}
+
+.ft-forgot {
+  background-color: #f1f1f1;
+
+  margin-top: 30px;
+}
+
+.login-margin {
+  margin-top: 70px;
+}
+
+.login-button {
+  width: 100%;
+
+  margin-top: 40px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

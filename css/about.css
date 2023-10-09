@@ -1,143 +1,143 @@
-*{
-    margin-top: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    line-height: 1.5;
-    font-family: poppins, sans-serif;
-  }
-  body{
-    width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient(to right, rgba(224, 207, 207, 0), rgb(10, 7, 7));
-  }
-  .about-us{
-    width: 100%;
-  }
-  .about-us h1{
-    text-align: center;
-    font-size: 40px;
-    color: #02025a;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-top: 50px;
-  }
-  .about-us h1::after{
-    content: "";
-    height: 5px;
-    width: 200px;
-    background-color: rgba(22, 20, 20, 0.91);
-    margin: auto ;
-    display: block;
-  }
-  .wrapper{
-    padding: 0px 60px;
-    margin: 60px auto;
-  }
-  .content{
-    width: 60%;
-    float: left;
-    text-align: left;
-    padding: 0px 30px;
-  }
-  .content h3{
-    color:black;
-    letter-spacing: 1px;
-  }
-  #about{
-    text-align: justify;
-  }
-  
-  
-  .content .button{
-    margin-top: 40px;
-  }
-  .content p .content-values ul{
-    font-family: sans-serif;
-    font-size: 18px;
-    color: #02025a;
-    margin-top: 20px;
-  }
-  .content .button a{
-    color: #fff;
-    background-color: #02025a;
-    border: 1px solid #02025a;
-    padding: 10px 35px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 22px;
-    text-transform: uppercase;
-    border-radius: 50px;
-  }
-  .content .button a:hover{
-    background-color:#fff;
-    color: black;
-  }
-  .image-section{
-    width: 40%;;
-    float: right;
-    padding: 0px 40px;
+* {
+  margin-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: poppins, sans-serif;
 }
-.image-section img{
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgba(224, 207, 207, 0),
+    rgb(10, 7, 7)
+  );
+}
+.about-us {
+  width: 100%;
+}
+.about-us h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #02025a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 50px;
+}
+.about-us h1::after {
+  content: "";
+  height: 5px;
+  width: 200px;
+  background-color: rgba(22, 20, 20, 0.91);
+  margin: auto;
+  display: block;
+}
+.wrapper {
+  padding: 0px 60px;
+  margin: 60px auto;
+}
+.content {
+  width: 60%;
+  float: left;
+  text-align: left;
+  padding: 0px 30px;
+}
+.content h3 {
+  color: black;
+  letter-spacing: 1px;
+}
+#about {
+  text-align: justify;
+}
+
+.content .button {
+  margin-top: 40px;
+}
+.content p .content-values ul {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #02025a;
+  margin-top: 20px;
+}
+.content .button a {
+  color: #fff;
+  background-color: #02025a;
+  border: 1px solid #02025a;
+  padding: 10px 35px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 22px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.content .button a:hover {
+  background-color: #fff;
+  color: black;
+}
+.image-section {
+  width: 40%;
+  float: right;
+  padding: 0px 40px;
+}
+.image-section img {
   max-width: 100%;
   height: 30cm;
 }
-  .our-values{
+.our-values {
+  width: 100%;
+}
+.our-values h1 {
+  text-align: left;
+  font-size: 40px;
+  color: #02025a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 500px;
+}
+.mission {
+  display: block;
+  color: white;
+}
+
+.content-values {
+  width: 60%;
+  float: left;
+  text-align: left;
+  padding: 0px 30px;
+}
+.content-values h3 {
+  color: black;
+  letter-spacing: 1px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(129, 69, 69, 0.91);
+  color: black;
+  display: block;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .about-us .our-values {
     width: 100%;
+    padding-top: 20px;
   }
-  .our-values h1{
-    text-align: left;
-    font-size: 40px;
-    color: #02025a;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-top: 500px;
-    
+  .about-us h1 .our-values h1 {
+    font-size: 32px;
   }
-  .mission {
-    display: block
+  .content .content-values {
+    width: 100%;
+    float: none;
   }
-
-
-  .content-values{
-    width: 60%;
-    float: left;
-    text-align: left;
-    padding: 0px 30px;
-  }
-  .content-values h3{
-    color:black;
-    letter-spacing: 1px;
-    display: block;
-  }
-
-  
-  footer {
+  .content .button {
+    margin-top: 30px;
     text-align: center;
-    padding: 3px;
-    background-color: rgba(129, 69, 69, 0.91);
-    color: black;
-    display: block;
   }
-  .column {
-    float: left;
-    width: 50%;
-  }
-  
-  
-  @media screen and (max-width: 600px){
- .about-us .our-values{
-      width: 100%;
-      padding-top:20px;
-    }
-    .about-us h1 .our-values h1{
-      font-size: 32px;
-    }
-    .content .content-values{
-      width: 100%;
-      float: none;
-    }
-    .content .button{
-      margin-top: 30px;
-      text-align:center ;
-    }
-    }
+}

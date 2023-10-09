@@ -1,181 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-div">
-      <div
-        class="container-fluid d-flex gap-5 justify-content-center align-content-center"
-      >
-        <div class="icon-header">
-          <img
-            src="images/dove-with-olive.jpg"
-            alt="dove-with-branch"
-            id="dove-icon"
-          />
-          <h1><a class="navbar-brand text-dark nav-logo" href="#">JWB</a></h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-div">
+    <div class="container-fluid d-flex gap-5 justify-content-center align-content-center">
+      <div class="icon-header">
+        <img src="assests/landingpage-assets/dove-with-olive.jpg" alt="dove-with-branch" id="dove-icon" />
+        <h1><a class="navbar-brand text-dark nav-logo" href="#">JWB</a></h1>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse nav-div" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Our services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ticketing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item sign-in">
+            <a class="nav-link" href="userSignUp.html">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="gx-5 hero-wrapper">
+    <div class="d-flex justify-content-between">
+      <div class="hero-text">
+        <h1>Justice Without Borders</h1>
+        <h4>Without justice, courage is weak</h4>
+        <p>Promoting peace, justice and strong institutions</p>
+        <small class="text-white">Justice Without Borders is dedicated platform comitted to providing
+          accessible <br />legal assistance to those in need. Focusing on
+          fairness, equity and compassion,<br />
+          we strive to empower individuals and communities to navigate complex
+          legal<br />
+          systems with confidence. Join us in ou pursuit of a more just and
+          inclusive<br />
+          world where everyone can the legal support they deserve
+        </small>
+      </div>
+      <div class="hero-image">
+        <img src="assests/landingpage-assets/sdg-16-white.png" alt="sdg16-logo"
+          class="img-fluid shadow-lg rounded-end" />
+      </div>
+    </div>
+  </section>
+  <div class="wave"></div>
+  <section class="our-targets">
+    <div class="">
+      <img src="assests/landingpage-assets/peace-justice.jpg" alt="peace-display" class="img-fluid"
+        id="peace-display" />
+
+      <h3 class="text-center fs-1">
+        True peace is not merely the absence of tension, it is the presence of
+        Justice!<br />
+        <!-- <small class="fs-4 text-center">that's what i'm talking about</small> -->
+      </h3>
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br />
+
+      <!-- <h2 class="fs-1">Our Targets</h2> -->
+
+      <div class="row gx-5 row-wrap">
+        <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
+          <img src="assests/landingpage-assets/peace-justice.jpg" alt="target-one" class="img-fluid shadow-sm" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            praesentium consequatur magni nemo.
+          </p>
+          <button class="btn rounded-5">Read more</button>
         </div>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse nav-div" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-primary"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Our services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ticketing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Articles</a>
-            </li>
-            <li class="nav-item sign-in">
-              <a class="nav-link" href="#">Sign In</a>
-            </li>
-          </ul>
+        <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
+          <img src="assests/landingpage-assets/peace-justice.jpg" alt="target-one" class="img-fluid shadow-sm" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            praesentium consequatur magni nemo.
+          </p>
+          <button class="btn rounded-5">Read more</button>
+        </div>
+        <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
+          <img src="assests/landingpage-assets/peace-justice.jpg" alt="target-one" class="img-fluid shadow-sm" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            praesentium consequatur magni nemo.
+          </p>
+          <button class="btn rounded-5">Read more</button>
+        </div>
+        <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
+          <img src="assests/landingpage-assets/peace-justice.jpg" alt="target-one" class="img-fluid shadow-sm" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            praesentium consequatur magni nemo.
+          </p>
+          <button class="btn rounded-5">Read more</button>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
+</body>
 
-    <section class="gx-5 hero-wrapper">
-      <div class="d-flex justify-content-between">
-        <div class="hero-text">
-          <h1>Justice Without Borders</h1>
-          <h4>Without justice, courage is weak</h4>
-          <p>Promoting peace, justice and strong institutions</p>
-          <small class="text-white"
-            >Justice Without Borders is dedicated platform comitted to providing
-            accessible <br />legal assistance to those in need. Focusing on
-            fairness, equity and compassion,<br />
-            we strive to empower individuals and communities to navigate complex
-            legal<br />
-            systems with confidence. Join us in ou pursuit of a more just and
-            inclusive<br />
-            world where everyone can the legal support they deserve
-          </small>
-        </div>
-        <div class="hero-image">
-          <img
-            src="images/sdg-16-white.png"
-            alt="sdg16-logo"
-            class="img-fluid shadow-lg rounded-end"
-          />
-        </div>
-      </div>
-    </section>
-    <div class="wave"></div>
-    <section class="our-targets">
-      <div class="">
-        <img
-          src="images/peace-justice.jpg"
-          alt="peace-display"
-          class="img-fluid"
-          id="peace-display"
-        />
-
-        <h3 class="text-center fs-1">
-          True peace is not merely the absence of tension, it is the presence of
-          Justice!<br />
-          <!-- <small class="fs-4 text-center">that's what i'm talking about</small> -->
-        </h3>
-        <br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br />
-        <br /><br />
-
-        <!-- <h2 class="fs-1">Our Targets</h2> -->
-
-        <div class="row gx-5 row-wrap">
-          <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
-            <img
-              src="images/peace-justice.jpg"
-              alt="target-one"
-              class="img-fluid shadow-sm"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              praesentium consequatur magni nemo.
-            </p>
-            <button class="btn rounded-5">Read more</button>
-          </div>
-          <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
-            <img
-              src="images/peace-justice.jpg"
-              alt="target-one"
-              class="img-fluid shadow-sm"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              praesentium consequatur magni nemo.
-            </p>
-            <button class="btn rounded-5">Read more</button>
-          </div>
-          <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
-            <img
-              src="images/peace-justice.jpg"
-              alt="target-one"
-              class="img-fluid shadow-sm"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              praesentium consequatur magni nemo.
-            </p>
-            <button class="btn rounded-5">Read more</button>
-          </div>
-          <div class="col-sm-3 target-wrap rounded-4 text-bg-light p-3">
-            <img
-              src="images/peace-justice.jpg"
-              alt="target-one"
-              class="img-fluid shadow-sm"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              praesentium consequatur magni nemo.
-            </p>
-            <button class="btn rounded-5">Read more</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
 </html>
