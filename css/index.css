@@ -45,7 +45,7 @@ body {
   max-width: 100%;
   position: absolute;
   margin-left: 150px;
-  border-radius:14px;
+  border-radius: 14px;
 }
 
 .hero-wrapper h1 {
@@ -113,10 +113,9 @@ body {
 .row-wrap {
   margin-left: 70px;
   margin-bottom: -100px;
-
 }
-#over-mage{
-    position: absolute;
-    margin-right: 200px;
-    margin-top: -100px;
+#over-mage {
+  position: absolute;
+  margin-right: 200px;
+  margin-top: -100px;
 }
