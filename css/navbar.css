@@ -29,6 +29,7 @@ h1 {
 #dove-icon {
   height: 5em;
   width: 5em;
+  border-radius: 50%;
 }
 
 li > a {
