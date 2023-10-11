@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/ourteam.css" />
+    <title>our team</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-div bg-white mb-5">
+      <div class="container-fluid d-flex gap-5">
+        <div class="icon-header">
+          <img
+            src="assets/landingpage-assets/MicrosoftTeams-image (1).png"
+            alt="dove-with-branch"
+            id="dove-icon"
+          />
+          <h1><a class="navbar-brand text-dark nav-logo" href="#">JWB</a></h1>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-div" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-primary"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Our services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Our team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paymentgateway.html" target="_blank"
+                >Ticketing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="legal_resources.html">Resources</a>
+            </li>
+            <li class="nav-item sign-in">
+              <a class="nav-link" href="login.html">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h2 style="text-align: center">Our vibrant team</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 8</div>
+
+        <img src="assets/teampage-assets/esther.png" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 8</div>
+
+        <img src="assets/teampage-assets/sindi.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 8</div>
+
+        <img src="assets/teampage-assets/favour.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 8</div>
+
+        <img
+          src="assets/teampage-assets/dabi.png"
+          width="300px"
+          height="250px"
+        />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 8</div>
+
+        <img
+          src="assets/teampage-assets/ashley.png"
+          width="350px"
+          height="450px"
+        />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">6 / 8</div>
+
+        <img src="assets/teampage-assets/victoria.png" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 8</div>
+
+        <img src="assets/teampage-assets/asmah.png" />
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">8 / 8</div>
+
+        <img
+          src="assets/teampage-assets/chisom.png"
+          width="350px"
+          height="450px"
+        />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container mb-3">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/esther.png"
+            onclick="currentSlide(1)"
+            alt="Esther kalu"
+            width="200px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/sindi.png"
+            onclick="currentSlide(2)"
+            alt="Sindi Siwesono"
+            width="200px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/favour.png"
+            onclick="currentSlide(3)"
+            alt="Favour Oukonu"
+            width="200px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/dabi.png"
+            onclick="currentSlide(4)"
+            alt="Dabi Iya"
+            width="210px"
+            height="260px"
+          />
+        </div>
+
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/ashley.png"
+            onclick="currentSlide(5)"
+            alt="Ashley Ngwiza"
+            width="200px"
+            height="270px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/victoria.png"
+            onclick="currentSlide(6)"
+            alt="Amarachi Victoria"
+            width="200px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/asmah.png"
+            onclick="currentSlide(7)"
+            alt="Asmah Amdym"
+            width="200px"
+          />
+        </div>
+        <div class="col-2 sm-img">
+          <img
+            class="demo cursor"
+            src="assets/teampage-assets/chisom.png"
+            onclick="currentSlide(8)"
+            alt="Chisom Ojukwu"
+            width="200px"
+            height="270px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+
+        let slides = document.getElementsByClassName("mySlides");
+
+        let dots = document.getElementsByClassName("demo");
+
+        let captionText = document.getElementById("caption");
+
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+
+        dots[slideIndex - 1].className += " active";
+
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+  </body>
+</html>
